@@ -13,7 +13,7 @@ function handleSubmit(event) {
         return; 
     }
 
-    var content = "Napisałeś pytanie! Poczekaj na odpowiedź<br>Name: " + name;
+    var content = "Napisałeś pytanie! Poczekaj na odpowiedź<br>" + name;
 
     output.innerHTML = content;
 }
